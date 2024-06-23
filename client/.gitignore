@@ -1,9 +1,16 @@
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
 # dependencies
+logs
+*.log
+pnpm-debug.log*
+lerna-debug.log*
 /node_modules
 /.pnp
 .pnp.js
+dist
+dist-ssr
+*.local
 
 # testing
 /coverage
@@ -21,3 +28,7 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+.vscode/*
+.idea
+
